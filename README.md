@@ -1,16 +1,28 @@
-# React + Vite
+# 🔍 DevFinder Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **DevFinder** é uma aplicação minimalista que permite explorar desenvolvedores em todo o mundo através da API oficial do GitHub. O projeto foca em uma experiência de usuário limpa, rápida e funcional.
 
-Currently, two official plugins are available:
+## 🚀 Demonstração
+Você pode acessar o projeto online aqui: [https://dev-finder-tan.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
+* **React.js** (Vite)
+* **React Router Dom** (Navegação entre páginas)
+* **Lucide React** (Ícones minimalistas)
+* **CSS-in-JS** (Estilização dinâmica)
+* **Fetch API** (Consumo de dados em tempo real)
 
-## React Compiler
+## 🎨 Funcionalidades
+- [x] Busca de usuários em tempo real na API do GitHub.
+- [x] Paginação customizada (3 usuários por vez).
+- [x] Design responsivo e minimalista com suporte a modo escuro.
+- [x] Página de detalhes por usuário (Single Page Application).
+- [x] Navegação fluida sem recarregamento de página.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Como rodar o projeto localmente
+1. Clone este repositório: `git clone https://github.com/Anatrizz1/dev-finder.git`
+2. Instale as dependências: `npm install`
+3. Inicie o servidor: `npm run dev`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Desenvolvido com 💜 por [Ana Beatriz]
